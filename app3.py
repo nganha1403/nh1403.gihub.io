@@ -1,13 +1,14 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import sklearn
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import GradientBoostingRegressor
 import matplotlib.pyplot as plt
 import plotly.express as px
 import seaborn as sns
 import plotly.graph_objects as go
-import sklearn
+
 
 #Titles
 #tit1,tit2 = st.beta_columns((4, 1))
